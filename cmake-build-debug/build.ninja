@@ -73,6 +73,12 @@ build CMakeFiles/My_C_Exercises.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__M
   OBJECT_DIR = CMakeFiles/My_C_Exercises.dir
   OBJECT_FILE_DIR = CMakeFiles/My_C_Exercises.dir/exercise_5_2
 
+build CMakeFiles/My_C_Exercises.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__My_C_Exercises_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_My_C_Exercises
+  DEP_FILE = CMakeFiles/My_C_Exercises.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/My_C_Exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/My_C_Exercises.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target My_C_Exercises
@@ -81,7 +87,7 @@ build CMakeFiles/My_C_Exercises.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__M
 #############################################
 # Link the executable My_C_Exercises
 
-build My_C_Exercises: C_EXECUTABLE_LINKER__My_C_Exercises_Debug CMakeFiles/My_C_Exercises.dir/exercise_2_1/exercise_2_1.c.o CMakeFiles/My_C_Exercises.dir/exercise_2_2/exercise_2_2.c.o CMakeFiles/My_C_Exercises.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/My_C_Exercises.dir/exercise_5_2/exercise_5_2.c.o
+build My_C_Exercises: C_EXECUTABLE_LINKER__My_C_Exercises_Debug CMakeFiles/My_C_Exercises.dir/exercise_2_1/exercise_2_1.c.o CMakeFiles/My_C_Exercises.dir/exercise_2_2/exercise_2_2.c.o CMakeFiles/My_C_Exercises.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/My_C_Exercises.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/My_C_Exercises.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/My_C_Exercises.dir
   POST_BUILD = :
@@ -116,6 +122,12 @@ build CMakeFiles/exercise_2_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_2_2.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_2_2.dir/exercise_5_2
 
+build CMakeFiles/exercise_2_2.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_2_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_2_2
+  DEP_FILE = CMakeFiles/exercise_2_2.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_2_2.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_2_2
@@ -124,7 +136,7 @@ build CMakeFiles/exercise_2_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_2_2
 
-build exercise_2_2: C_EXECUTABLE_LINKER__exercise_2_2_Debug CMakeFiles/exercise_2_2.dir/exercise_2_2/exercise_2_2.c.o CMakeFiles/exercise_2_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_2.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_2_2: C_EXECUTABLE_LINKER__exercise_2_2_Debug CMakeFiles/exercise_2_2.dir/exercise_2_2/exercise_2_2.c.o CMakeFiles/exercise_2_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_2.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_2_2.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_2_2.dir
   POST_BUILD = :
@@ -159,6 +171,12 @@ build CMakeFiles/single_file_exe.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__
   OBJECT_DIR = CMakeFiles/single_file_exe.dir
   OBJECT_FILE_DIR = CMakeFiles/single_file_exe.dir/exercise_5_2
 
+build CMakeFiles/single_file_exe.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__single_file_exe_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_single_file_exe
+  DEP_FILE = CMakeFiles/single_file_exe.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/single_file_exe.dir
+  OBJECT_FILE_DIR = CMakeFiles/single_file_exe.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target single_file_exe
@@ -167,7 +185,7 @@ build CMakeFiles/single_file_exe.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__
 #############################################
 # Link the executable single_file_exe
 
-build single_file_exe: C_EXECUTABLE_LINKER__single_file_exe_Debug CMakeFiles/single_file_exe.dir/exercise_2_2/exercise_2_2.c.o CMakeFiles/single_file_exe.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/single_file_exe.dir/exercise_5_2/exercise_5_2.c.o
+build single_file_exe: C_EXECUTABLE_LINKER__single_file_exe_Debug CMakeFiles/single_file_exe.dir/exercise_2_2/exercise_2_2.c.o CMakeFiles/single_file_exe.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/single_file_exe.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/single_file_exe.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/single_file_exe.dir
   POST_BUILD = :
@@ -202,6 +220,12 @@ build CMakeFiles/exercise_2_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_2_1.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_2_1.dir/exercise_5_2
 
+build CMakeFiles/exercise_2_1.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_2_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_2_1
+  DEP_FILE = CMakeFiles/exercise_2_1.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_2_1.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_2_1
@@ -210,7 +234,7 @@ build CMakeFiles/exercise_2_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_2_1
 
-build exercise_2_1: C_EXECUTABLE_LINKER__exercise_2_1_Debug CMakeFiles/exercise_2_1.dir/exercise_2_1/exercise_2_1.c.o CMakeFiles/exercise_2_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_1.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_2_1: C_EXECUTABLE_LINKER__exercise_2_1_Debug CMakeFiles/exercise_2_1.dir/exercise_2_1/exercise_2_1.c.o CMakeFiles/exercise_2_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_1.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_2_1.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_2_1.dir
   POST_BUILD = :
@@ -245,6 +269,12 @@ build CMakeFiles/exercise_2_4.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_2_4.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_2_4.dir/exercise_5_2
 
+build CMakeFiles/exercise_2_4.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_2_4_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_2_4
+  DEP_FILE = CMakeFiles/exercise_2_4.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_2_4.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_2_4
@@ -253,7 +283,7 @@ build CMakeFiles/exercise_2_4.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_2_4
 
-build exercise_2_4: C_EXECUTABLE_LINKER__exercise_2_4_Debug CMakeFiles/exercise_2_4.dir/exercise_2_4/exercise_2_4.c.o CMakeFiles/exercise_2_4.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_4.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_2_4: C_EXECUTABLE_LINKER__exercise_2_4_Debug CMakeFiles/exercise_2_4.dir/exercise_2_4/exercise_2_4.c.o CMakeFiles/exercise_2_4.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_4.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_2_4.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_2_4.dir
   POST_BUILD = :
@@ -288,6 +318,12 @@ build CMakeFiles/exercise_2_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_2_3.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_2_3.dir/exercise_5_2
 
+build CMakeFiles/exercise_2_3.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_2_3_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_2_3
+  DEP_FILE = CMakeFiles/exercise_2_3.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_2_3.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_2_3
@@ -296,7 +332,7 @@ build CMakeFiles/exercise_2_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_2_3
 
-build exercise_2_3: C_EXECUTABLE_LINKER__exercise_2_3_Debug CMakeFiles/exercise_2_3.dir/exercise_2_3/exercise_2_3.c.o CMakeFiles/exercise_2_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_3.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_2_3: C_EXECUTABLE_LINKER__exercise_2_3_Debug CMakeFiles/exercise_2_3.dir/exercise_2_3/exercise_2_3.c.o CMakeFiles/exercise_2_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_3.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_2_3.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_2_3.dir
   POST_BUILD = :
@@ -331,6 +367,12 @@ build CMakeFiles/exercise_2_5.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_2_5.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_2_5.dir/exercise_5_2
 
+build CMakeFiles/exercise_2_5.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_2_5_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_2_5
+  DEP_FILE = CMakeFiles/exercise_2_5.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_2_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_2_5.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_2_5
@@ -339,7 +381,7 @@ build CMakeFiles/exercise_2_5.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_2_5
 
-build exercise_2_5: C_EXECUTABLE_LINKER__exercise_2_5_Debug CMakeFiles/exercise_2_5.dir/exercise_2_5/exercise_2_5.c.o CMakeFiles/exercise_2_5.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_5.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_2_5: C_EXECUTABLE_LINKER__exercise_2_5_Debug CMakeFiles/exercise_2_5.dir/exercise_2_5/exercise_2_5.c.o CMakeFiles/exercise_2_5.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_5.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_2_5.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_2_5.dir
   POST_BUILD = :
@@ -374,6 +416,12 @@ build CMakeFiles/exercise_2_6.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_2_6.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_2_6.dir/exercise_5_2
 
+build CMakeFiles/exercise_2_6.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_2_6_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_2_6
+  DEP_FILE = CMakeFiles/exercise_2_6.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_2_6.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_2_6.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_2_6
@@ -382,7 +430,7 @@ build CMakeFiles/exercise_2_6.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_2_6
 
-build exercise_2_6: C_EXECUTABLE_LINKER__exercise_2_6_Debug CMakeFiles/exercise_2_6.dir/exercise_2_6/exercise_2_6.c.o CMakeFiles/exercise_2_6.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_6.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_2_6: C_EXECUTABLE_LINKER__exercise_2_6_Debug CMakeFiles/exercise_2_6.dir/exercise_2_6/exercise_2_6.c.o CMakeFiles/exercise_2_6.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_2_6.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_2_6.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_2_6.dir
   POST_BUILD = :
@@ -417,6 +465,12 @@ build CMakeFiles/exercise_5_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_5_1.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_5_1.dir/exercise_5_2
 
+build CMakeFiles/exercise_5_1.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_5_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_5_1
+  DEP_FILE = CMakeFiles/exercise_5_1.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_5_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_5_1.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_5_1
@@ -425,7 +479,7 @@ build CMakeFiles/exercise_5_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_5_1
 
-build exercise_5_1: C_EXECUTABLE_LINKER__exercise_5_1_Debug CMakeFiles/exercise_5_1.dir/exercise_5_1/exercise_5_1.c.o CMakeFiles/exercise_5_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_5_1.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_5_1: C_EXECUTABLE_LINKER__exercise_5_1_Debug CMakeFiles/exercise_5_1.dir/exercise_5_1/exercise_5_1.c.o CMakeFiles/exercise_5_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_5_1.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_5_1.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_5_1.dir
   POST_BUILD = :
@@ -454,6 +508,12 @@ build CMakeFiles/exercise_9_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_9_3.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_9_3.dir/exercise_5_2
 
+build CMakeFiles/exercise_9_3.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_9_3_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_9_3
+  DEP_FILE = CMakeFiles/exercise_9_3.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_9_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_9_3.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_9_3
@@ -462,7 +522,7 @@ build CMakeFiles/exercise_9_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_9_3
 
-build exercise_9_3: C_EXECUTABLE_LINKER__exercise_9_3_Debug CMakeFiles/exercise_9_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_9_3.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_9_3: C_EXECUTABLE_LINKER__exercise_9_3_Debug CMakeFiles/exercise_9_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_9_3.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_9_3.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_9_3.dir
   POST_BUILD = :
@@ -497,6 +557,12 @@ build CMakeFiles/exercise_6_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_6_3.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_6_3.dir/exercise_5_2
 
+build CMakeFiles/exercise_6_3.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_6_3_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_6_3
+  DEP_FILE = CMakeFiles/exercise_6_3.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_6_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_6_3.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_6_3
@@ -505,7 +571,7 @@ build CMakeFiles/exercise_6_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_6_3
 
-build exercise_6_3: C_EXECUTABLE_LINKER__exercise_6_3_Debug CMakeFiles/exercise_6_3.dir/exercise_6_3/exercise_6_3.c.o CMakeFiles/exercise_6_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_6_3.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_6_3: C_EXECUTABLE_LINKER__exercise_6_3_Debug CMakeFiles/exercise_6_3.dir/exercise_6_3/exercise_6_3.c.o CMakeFiles/exercise_6_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_6_3.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_6_3.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_6_3.dir
   POST_BUILD = :
@@ -540,6 +606,12 @@ build CMakeFiles/exercise_7_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_7_1.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_7_1.dir/exercise_5_2
 
+build CMakeFiles/exercise_7_1.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_7_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_7_1
+  DEP_FILE = CMakeFiles/exercise_7_1.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_7_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_7_1.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_7_1
@@ -548,7 +620,7 @@ build CMakeFiles/exercise_7_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_7_1
 
-build exercise_7_1: C_EXECUTABLE_LINKER__exercise_7_1_Debug CMakeFiles/exercise_7_1.dir/exercise_7_1/exercise_7_1.c.o CMakeFiles/exercise_7_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_7_1.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_7_1: C_EXECUTABLE_LINKER__exercise_7_1_Debug CMakeFiles/exercise_7_1.dir/exercise_7_1/exercise_7_1.c.o CMakeFiles/exercise_7_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_7_1.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_7_1.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_7_1.dir
   POST_BUILD = :
@@ -583,6 +655,12 @@ build CMakeFiles/exercise_7_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_7_2.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_7_2.dir/exercise_5_2
 
+build CMakeFiles/exercise_7_2.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_7_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_7_2
+  DEP_FILE = CMakeFiles/exercise_7_2.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_7_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_7_2.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_7_2
@@ -591,7 +669,7 @@ build CMakeFiles/exercise_7_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_7_2
 
-build exercise_7_2: C_EXECUTABLE_LINKER__exercise_7_2_Debug CMakeFiles/exercise_7_2.dir/exercise_7_2/exercise_7_2.c.o CMakeFiles/exercise_7_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_7_2.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_7_2: C_EXECUTABLE_LINKER__exercise_7_2_Debug CMakeFiles/exercise_7_2.dir/exercise_7_2/exercise_7_2.c.o CMakeFiles/exercise_7_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_7_2.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_7_2.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_7_2.dir
   POST_BUILD = :
@@ -626,6 +704,12 @@ build CMakeFiles/exercise_7_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_7_3.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_7_3.dir/exercise_5_2
 
+build CMakeFiles/exercise_7_3.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_7_3_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_7_3
+  DEP_FILE = CMakeFiles/exercise_7_3.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_7_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_7_3.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_7_3
@@ -634,7 +718,7 @@ build CMakeFiles/exercise_7_3.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_7_3
 
-build exercise_7_3: C_EXECUTABLE_LINKER__exercise_7_3_Debug CMakeFiles/exercise_7_3.dir/exercise_7_3/exercise_7_3.c.o CMakeFiles/exercise_7_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_7_3.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_7_3: C_EXECUTABLE_LINKER__exercise_7_3_Debug CMakeFiles/exercise_7_3.dir/exercise_7_3/exercise_7_3.c.o CMakeFiles/exercise_7_3.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_7_3.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_7_3.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_7_3.dir
   POST_BUILD = :
@@ -669,6 +753,12 @@ build CMakeFiles/exercise_8_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_8_1.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_8_1.dir/exercise_5_2
 
+build CMakeFiles/exercise_8_1.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_8_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_8_1
+  DEP_FILE = CMakeFiles/exercise_8_1.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_8_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_8_1.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_8_1
@@ -677,7 +767,7 @@ build CMakeFiles/exercise_8_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_8_1
 
-build exercise_8_1: C_EXECUTABLE_LINKER__exercise_8_1_Debug CMakeFiles/exercise_8_1.dir/exercise_8_1/exercise_8_1.c.o CMakeFiles/exercise_8_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_8_1.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_8_1: C_EXECUTABLE_LINKER__exercise_8_1_Debug CMakeFiles/exercise_8_1.dir/exercise_8_1/exercise_8_1.c.o CMakeFiles/exercise_8_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_8_1.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_8_1.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_8_1.dir
   POST_BUILD = :
@@ -712,6 +802,12 @@ build CMakeFiles/exercise_8_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_8_2.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_8_2.dir/exercise_5_2
 
+build CMakeFiles/exercise_8_2.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_8_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_8_2
+  DEP_FILE = CMakeFiles/exercise_8_2.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_8_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_8_2.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_8_2
@@ -720,7 +816,7 @@ build CMakeFiles/exercise_8_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_8_2
 
-build exercise_8_2: C_EXECUTABLE_LINKER__exercise_8_2_Debug CMakeFiles/exercise_8_2.dir/exercise_8_2/exercise_8_2.c.o CMakeFiles/exercise_8_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_8_2.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_8_2: C_EXECUTABLE_LINKER__exercise_8_2_Debug CMakeFiles/exercise_8_2.dir/exercise_8_2/exercise_8_2.c.o CMakeFiles/exercise_8_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_8_2.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_8_2.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_8_2.dir
   POST_BUILD = :
@@ -755,6 +851,12 @@ build CMakeFiles/exercise_9_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_9_1.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_9_1.dir/exercise_5_2
 
+build CMakeFiles/exercise_9_1.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_9_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_9_1
+  DEP_FILE = CMakeFiles/exercise_9_1.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_9_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_9_1.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_9_1
@@ -763,7 +865,7 @@ build CMakeFiles/exercise_9_1.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_9_1
 
-build exercise_9_1: C_EXECUTABLE_LINKER__exercise_9_1_Debug CMakeFiles/exercise_9_1.dir/exercise_9_1/exercise_9_1.c.o CMakeFiles/exercise_9_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_9_1.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_9_1: C_EXECUTABLE_LINKER__exercise_9_1_Debug CMakeFiles/exercise_9_1.dir/exercise_9_1/exercise_9_1.c.o CMakeFiles/exercise_9_1.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_9_1.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_9_1.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_9_1.dir
   POST_BUILD = :
@@ -798,6 +900,12 @@ build CMakeFiles/exercise_9_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_9_2.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_9_2.dir/exercise_5_2
 
+build CMakeFiles/exercise_9_2.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_9_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_9_2
+  DEP_FILE = CMakeFiles/exercise_9_2.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_9_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_9_2.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_9_2
@@ -806,7 +914,7 @@ build CMakeFiles/exercise_9_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_9_2
 
-build exercise_9_2: C_EXECUTABLE_LINKER__exercise_9_2_Debug CMakeFiles/exercise_9_2.dir/exercise_9_2/exercise_9_2.c.o CMakeFiles/exercise_9_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_9_2.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_9_2: C_EXECUTABLE_LINKER__exercise_9_2_Debug CMakeFiles/exercise_9_2.dir/exercise_9_2/exercise_9_2.c.o CMakeFiles/exercise_9_2.dir/exercise_9_3/exercise_9_3.c.o CMakeFiles/exercise_9_2.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_9_2.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_9_2.dir
   POST_BUILD = :
@@ -829,6 +937,12 @@ build CMakeFiles/exercise_5_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_5_2.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_5_2.dir/exercise_5_2
 
+build CMakeFiles/exercise_5_2.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_5_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_5_2
+  DEP_FILE = CMakeFiles/exercise_5_2.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_5_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_5_2.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_5_2
@@ -837,7 +951,7 @@ build CMakeFiles/exercise_5_2.dir/exercise_5_2/exercise_5_2.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_5_2
 
-build exercise_5_2: C_EXECUTABLE_LINKER__exercise_5_2_Debug CMakeFiles/exercise_5_2.dir/exercise_5_2/exercise_5_2.c.o
+build exercise_5_2: C_EXECUTABLE_LINKER__exercise_5_2_Debug CMakeFiles/exercise_5_2.dir/exercise_5_2/exercise_5_2.c.o CMakeFiles/exercise_5_2.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_5_2.dir
   POST_BUILD = :
@@ -860,6 +974,12 @@ build CMakeFiles/exercise_5_3.dir/exercise_5_3/exercise_5_3.c.o: C_COMPILER__exe
   OBJECT_DIR = CMakeFiles/exercise_5_3.dir
   OBJECT_FILE_DIR = CMakeFiles/exercise_5_3.dir/exercise_5_3
 
+build CMakeFiles/exercise_5_3.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_5_3_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_5_3
+  DEP_FILE = CMakeFiles/exercise_5_3.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_5_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_5_3.dir/exercise_6_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercise_5_3
@@ -868,13 +988,44 @@ build CMakeFiles/exercise_5_3.dir/exercise_5_3/exercise_5_3.c.o: C_COMPILER__exe
 #############################################
 # Link the executable exercise_5_3
 
-build exercise_5_3: C_EXECUTABLE_LINKER__exercise_5_3_Debug CMakeFiles/exercise_5_3.dir/exercise_5_3/exercise_5_3.c.o
+build exercise_5_3: C_EXECUTABLE_LINKER__exercise_5_3_Debug CMakeFiles/exercise_5_3.dir/exercise_5_3/exercise_5_3.c.o CMakeFiles/exercise_5_3.dir/exercise_6_1/exercise_6_1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/exercise_5_3.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = exercise_5_3
   TARGET_PDB = exercise_5_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_6_1
+
+
+#############################################
+# Order-only phony target for exercise_6_1
+
+build cmake_object_order_depends_target_exercise_6_1: phony || .
+
+build CMakeFiles/exercise_6_1.dir/exercise_6_1/exercise_6_1.c.o: C_COMPILER__exercise_6_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_1/exercise_6_1.c || cmake_object_order_depends_target_exercise_6_1
+  DEP_FILE = CMakeFiles/exercise_6_1.dir/exercise_6_1/exercise_6_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_6_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_6_1.dir/exercise_6_1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_6_1
+
+
+#############################################
+# Link the executable exercise_6_1
+
+build exercise_6_1: C_EXECUTABLE_LINKER__exercise_6_1_Debug CMakeFiles/exercise_6_1.dir/exercise_6_1/exercise_6_1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/exercise_6_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exercise_6_1
+  TARGET_PDB = exercise_6_1.dbg
 
 
 #############################################
@@ -910,7 +1061,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug
 
-build all: phony My_C_Exercises exercise_2_2 single_file_exe exercise_2_1 exercise_2_4 exercise_2_3 exercise_2_5 exercise_2_6 exercise_5_1 exercise_9_3 exercise_6_3 exercise_7_1 exercise_7_2 exercise_7_3 exercise_8_1 exercise_8_2 exercise_9_1 exercise_9_2 exercise_5_2 exercise_5_3
+build all: phony My_C_Exercises exercise_2_2 single_file_exe exercise_2_1 exercise_2_4 exercise_2_3 exercise_2_5 exercise_2_6 exercise_5_1 exercise_9_3 exercise_6_3 exercise_7_1 exercise_7_2 exercise_7_3 exercise_8_1 exercise_8_2 exercise_9_1 exercise_9_2 exercise_5_2 exercise_5_3 exercise_6_1
 
 # =============================================================================
 # Built-in targets
