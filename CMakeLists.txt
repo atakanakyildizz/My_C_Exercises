@@ -60,3 +60,4 @@ add_executable(exercise_9_1 exercise_9_1/exercise_9_1.c
 add_executable(exercise_9_2 exercise_9_2/exercise_9_2.c
         exercise_9_3/exercise_9_3.c
         exercise_5_2/exercise_5_2.c)
+add_executable(exercise_5_2 exercise_5_2/exercise_5_2.c)
