@@ -1027,6 +1027,37 @@ build exercise_6_1: C_EXECUTABLE_LINKER__exercise_6_1_Debug CMakeFiles/exercise_
   TARGET_FILE = exercise_6_1
   TARGET_PDB = exercise_6_1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_6_2
+
+
+#############################################
+# Order-only phony target for exercise_6_2
+
+build cmake_object_order_depends_target_exercise_6_2: phony || .
+
+build CMakeFiles/exercise_6_2.dir/exercise_6_2/exercise_6_2.c.o: C_COMPILER__exercise_6_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/My_C_Exercises/exercise_6_2/exercise_6_2.c || cmake_object_order_depends_target_exercise_6_2
+  DEP_FILE = CMakeFiles/exercise_6_2.dir/exercise_6_2/exercise_6_2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exercise_6_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/exercise_6_2.dir/exercise_6_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_6_2
+
+
+#############################################
+# Link the executable exercise_6_2
+
+build exercise_6_2: C_EXECUTABLE_LINKER__exercise_6_2_Debug CMakeFiles/exercise_6_2.dir/exercise_6_2/exercise_6_2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/exercise_6_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exercise_6_2
+  TARGET_PDB = exercise_6_2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1061,7 +1092,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug
 
-build all: phony My_C_Exercises exercise_2_2 single_file_exe exercise_2_1 exercise_2_4 exercise_2_3 exercise_2_5 exercise_2_6 exercise_5_1 exercise_9_3 exercise_6_3 exercise_7_1 exercise_7_2 exercise_7_3 exercise_8_1 exercise_8_2 exercise_9_1 exercise_9_2 exercise_5_2 exercise_5_3 exercise_6_1
+build all: phony My_C_Exercises exercise_2_2 single_file_exe exercise_2_1 exercise_2_4 exercise_2_3 exercise_2_5 exercise_2_6 exercise_5_1 exercise_9_3 exercise_6_3 exercise_7_1 exercise_7_2 exercise_7_3 exercise_8_1 exercise_8_2 exercise_9_1 exercise_9_2 exercise_5_2 exercise_5_3 exercise_6_1 exercise_6_2
 
 # =============================================================================
 # Built-in targets

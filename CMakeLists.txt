@@ -83,3 +83,4 @@ add_executable(exercise_5_2 exercise_5_2/exercise_5_2.c
 add_executable(exercise_5_3 exercise_5_3/exercise_5_3.c
         exercise_6_1/exercise_6_1.c)
 add_executable(exercise_6_1 exercise_6_1/exercise_6_1.c)
+add_executable(exercise_6_2 exercise_6_2/exercise_6_2.c)
