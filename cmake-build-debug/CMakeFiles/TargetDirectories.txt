@@ -7,5 +7,14 @@
 /Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_2_5.dir
 /Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_2_6.dir
 /Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_5_1.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_9_3.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_6_3.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_7_1.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_7_2.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_7_3.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_8_1.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_8_2.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_9_1.dir
+/Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/exercise_9_2.dir
 /Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/atakanakyildiz/CLionProjects/My_C_Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
