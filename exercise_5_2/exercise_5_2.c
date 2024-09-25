@@ -18,6 +18,9 @@ int main() {
         else if ((3 < cup_number) && (cup_number < 20)) {
             printf("You drink a lot of coffee!");
         }
+        else {
+            printf("An error occurred in the program!");
+        }
     }
 
     else if (choose=='t') {
@@ -26,6 +29,9 @@ int main() {
         }
         else if ((3 < cup_number) && (cup_number < 20)) {
             printf("You drink a lot of tea!");
+        }
+        else {
+            printf("An error occurred in the program!");
         }
     }
     else {
